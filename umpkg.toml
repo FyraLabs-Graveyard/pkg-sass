@@ -1,6 +1,6 @@
 [sass]
 spec = "sass.spec"
-build_script = ""
+build_script = "./prepare.sh"
 build_method = "mock"
 owner = "cappy"
 git_repo = "https://github.com/Ultramarine-Linux/pkg-sass.git"
