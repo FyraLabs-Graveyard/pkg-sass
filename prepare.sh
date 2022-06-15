@@ -1,9 +1,6 @@
 #!/bin/bash
 
-# Check if dart is installed
-if ! which dart > /dev/null; then
-    sudo dnf install -y dart
-fi
+dnf install -y dart
 
 export OLD_PATH=$PWD
 
