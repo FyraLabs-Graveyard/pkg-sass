@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dnf install -y dart
+sudo dnf install -y dart
 
 export OLD_PATH=$PWD
 
